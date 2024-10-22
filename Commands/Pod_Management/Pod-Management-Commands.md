@@ -95,4 +95,4 @@ $ kubectl port-forward <podname> <local-port>:<pod-port>
 ``` bash
 # Scale the number of replicas in a deployment
 $ kubectl scale deployment <deployment-name> --replicas=<number>
-```s
+```
