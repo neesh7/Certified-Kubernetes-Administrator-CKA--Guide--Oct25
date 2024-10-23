@@ -25,21 +25,35 @@ kubectl apply -f my-pod.yaml
 ```
 
 ## Commands
-
+### Basic kubectl commands
+```bash
+$ kubectl version
+$ kubectl version --output=yaml
+$ kubectl run hello-minikube
+$ kubectl cluster-info
+$ kubectl get nodes
+$ kubectl get node -o wide
+```
 ### Get Pod details
 
 ```bash
+# Note - Setting shorthand for kubectl
+$ alias k=kubectl
+
 # List all pods
 $ kubectl get pods
+$ kubectl get pods --watch
 $ kubectl get pods -o wide
 $ kubectl get pods -o yaml
 $ kubectl get pods -v=7 and 9 is the max verbosity level
-
+$ kubectl get pods --namespace <your-namespace>
+$ kubectl get pods -n <your-namespace>
 # use of grep
 $ kubectl get pods | grep "keyword"
 
 # List all pods in all namespaces
 $ kubectl get pods --all-namespaces
+$ kubectl get pods -n
 
 # Describe a pod
 $ kubectl describe pod <podname>
@@ -49,9 +63,16 @@ $ kubectl explain pod <podname>
 ### Create/ update/ delete a Pod
 
 ```bash
-
-$ Kubectl run <podname> --image <imagename> --sleep 1d
+# creates pod in default namespace
+$ kubectl run <podname> --image <imagename> --sleep 1d
 $ kubectl run redis --image=redis123 --dry-run=client -o yaml
+$ kubectl run redis --image=redis123 --dry-run=client -o yaml > my-pod.yml
+
+# creates Pod in targeted namespace
+$ kubectl run <podname> --image <imagename> -n <your-namespace>
+
+# creating pods and doing port mapping
+$ kubectl run <podname> --image <imagename> --port <port like 8080>
 
 # To generate a Yaml manifest quickly for pods, use dry run and redirection
 $ kubectl run redis --image=redis123 --dry-run=client -o yaml > redis-definition.yaml
