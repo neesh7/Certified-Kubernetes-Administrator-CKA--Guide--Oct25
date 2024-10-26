@@ -5,7 +5,8 @@
 #### K8 Cheatsheet: https://kubernetes.io/docs/reference/kubectl/quick-reference/
 
 ## **Pods in Brief**: 
-Pods are the smallest, most basic deployable units in Kubernetes, encapsulating one or more containers that share storage, network, and a specification for how to run the containers. 
+Pods are the smallest, most basic deployable units in Kubernetes, encapsulating one or more containers that share storage, network, and a specification for how to run the containers.
+###### **Pods Short form is **Po****
 
 To create a Pod, we can **use commands directly** or you can **use a YAML file** like this and then **apply it** with **kubectl**:
 
@@ -48,6 +49,14 @@ $ kubectl get pods -o yaml
 $ kubectl get pods -v=7 and 9 is the max verbosity level
 $ kubectl get pods --namespace <your-namespace>
 $ kubectl get pods -n <your-namespace>
+# Getting count of pods
+$ kubectl get pods --no-header| wc -l
+
+# Getting pods in controlplane
+$ kubectl get pods -n kube-system
+# Getting pods based on selector 
+$ kubectl get pods --selector myapp=DjangoApp
+
 # use of grep
 $ kubectl get pods | grep "keyword"
 
@@ -90,6 +99,9 @@ $ kubectl exec -it webapp -- /bin/bash
 
 # Deleteing a Pod
 $ Kubectl delete pod <podname1> <podname2>
+
+# Delete and create in single commands
+$ kubectl prelace --force -f my-pod-yaml.yml
 
 # to get help with a command
 $ kubectl create pod --help
