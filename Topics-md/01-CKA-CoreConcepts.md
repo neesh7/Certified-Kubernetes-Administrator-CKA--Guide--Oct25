@@ -1,3 +1,4 @@
+# Core Concepts
 | Topic                                                    | Duration |
 |----------------------------------------------------------|----------|
 | Section Introduction | 00:31 |
