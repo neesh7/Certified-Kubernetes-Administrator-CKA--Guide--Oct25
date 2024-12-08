@@ -54,6 +54,4 @@ $ kubectl expose deployment simple-webapp-deployment --name=webapp-service --typ
 # Patch the node-port now
 $ kubectl patch service webapp-service -p '{"spec":{"ports":[{"port":8080,"targetPort":8080,"nodePort":30080}]}}'
 
-
-
 ```
