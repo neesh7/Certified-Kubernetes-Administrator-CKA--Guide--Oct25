@@ -44,6 +44,9 @@ kubectl apply -f my-deployment.yaml
 # Note - Setting shorthand for kubectl
 $ alias k=kubectl
 
+# To get all resources at once
+$ kubectl get all
+
 # create a deployment
 $ kubectl create deployment --image=nginx nginx
 $ kubectl create deployment --image=nginx nginx --dry-run=client -o yaml
