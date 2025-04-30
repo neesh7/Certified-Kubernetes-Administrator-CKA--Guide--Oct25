@@ -66,7 +66,7 @@ $ kubectl get pods -n
 
 # Describe a pod
 $ kubectl describe pod <podname>
-$ kubectl explain pod <podname>
+$ kubectl explain pod
 ```
 
 ### Create/ update/ delete a Pod
