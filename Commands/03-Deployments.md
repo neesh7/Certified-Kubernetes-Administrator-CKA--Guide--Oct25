@@ -5,7 +5,7 @@
 #### K8 Cheatsheet: https://kubernetes.io/docs/reference/kubectl/quick-reference/
 
 ## **Deployments in Brief**: 
-A Deployment manages a set of Pods to run an application workload, usually one that doesn't maintain state. Deployment automatically. Deployments are reffered as **deplpoy** in short.
+A Deployment manages a set of Pods to run an application workload, usually one that doesn't maintain state. Deployment automatically. Deployments are reffered as **deploy** in short.
 
 To create a Deployment, we can **use commands directly** or you can **use a YAML file** like this and then **apply it** with **kubectl**:
 
