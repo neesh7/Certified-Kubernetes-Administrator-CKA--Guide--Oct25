@@ -18,5 +18,6 @@ $ kubectl run pods mypod --image busybox -n dev
 ```bash
 # usually when we run any command it loads result from default namespace but we can update that to using this below command
 
+# switching namespace
 $ kubectl config set-contex $(kubectl config current-context) --namespace=dev
 ```

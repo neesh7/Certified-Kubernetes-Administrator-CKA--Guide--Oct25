@@ -46,7 +46,19 @@ $ kubectl get pods
 $ kubectl get pods --watch
 $ kubectl get pods -o wide
 $ kubectl get pods -o yaml
+
+# kubectl command with verbosity levels 
+# Kubernetes uses verbosity levels from 0 to 10:
+
+-v=0: Normal user-level output (default).
+-v=1 to 4: Increasingly detailed logs for typical troubleshooting.
+-v=5 to 6: Shows HTTP requests/responses to the API server.
+-v=7: Includes request and response headers, and some internal decision-making details.
+-v=8+: Very detailed (e.g., includes full request/response bodies, deep internal logic).
+
 $ kubectl get pods -v=7 and 9 is the max verbosity level
+
+
 $ kubectl get pods --namespace <your-namespace>
 $ kubectl get pods -n <your-namespace>
 # Getting count of pods
@@ -66,7 +78,7 @@ $ kubectl get pods -n
 
 # Describe a pod
 $ kubectl describe pod <podname>
-$ kubectl explain pod <podname>
+$ kubectl explain pod
 ```
 
 ### Create/ update/ delete a Pod
