@@ -54,5 +54,10 @@ $ kubectl expose deployment simple-webapp-deployment --name=webapp-service --typ
 # Patch the node-port now
 $ kubectl patch service webapp-service -p '{"spec":{"ports":[{"port":8080,"targetPort":8080,"nodePort":30080}]}}'
 # expose the pod
-kubectl expose pod redis --port=6379 --name redis-service
+$ kubectl expose pod redis --port=6379 --name redis-service
+
+# create a pod called httpd and then a service to expose it target port 80 and svc type is clusterip
+$ kubectl run httpd --image httpd
+$ kubectl expose pod httpd --type=ClusterIP --port=80 --target-port=80
+
 ```
