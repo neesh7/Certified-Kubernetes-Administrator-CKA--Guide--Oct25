@@ -50,7 +50,7 @@ $ kubectl get pods -v=7 and 9 is the max verbosity level
 $ kubectl get pods --namespace <your-namespace>
 $ kubectl get pods -n <your-namespace>
 # Getting count of pods
-$ kubectl get pods --no-header| wc -l
+$ kubectl get pods --no-headers| wc -l
 
 # Getting pods in controlplane
 $ kubectl get pods -n kube-system
