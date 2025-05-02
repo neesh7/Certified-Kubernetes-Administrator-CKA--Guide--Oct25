@@ -30,7 +30,14 @@
 | Practice Test Multiple Schedulers                |                    |
 | Solution - Multiple Scheduler                    | 07:46              |
 | Configuring Scheduler Profiles                   | 09:53              |
+| Admission Controllers                            | 08:07              |
+| Practice Test - Admission Controller             |                    |
+| Solutions - Admission Controllers                | 06:41              |
+| Validating and Mutating Admission Controllers    | 10:26              |
+| Practice Test - Validating and Mutating Admission controllers|                    |
+| Solution - Validating and Mutating Admission Controllers    | 07:39              |
 
-#### Total required time 2h 40m
+
+#### Total required time 3h 10m
 
 #### Useful Links
