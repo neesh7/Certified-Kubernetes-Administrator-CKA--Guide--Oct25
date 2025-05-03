@@ -41,5 +41,8 @@
 | Practice Test - CKA - Ingress Networking - 2           |                    |
 | Solution - Ingress Networking - 2 (optional)           | 10:39              |
 | Download Presentation Deck                             |                    |
+| 🆕 Introduction to Gateway API (2025 Updates)          | 08:23    |
+| 🆕 Practical Guide to Gateway API (2025 Updates)       |          |
+| 🆕 Practice Test - Gateway API (2025 Updates)          |          |
 
-#### Total Duration: 3h 12m
+#### Total Duration: 3h 20m

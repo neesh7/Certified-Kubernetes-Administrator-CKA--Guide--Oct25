@@ -44,5 +44,8 @@
 | Solution - Network Policies (optional)           | 12:17        |
 | Kubectx and Kubens – Command Line Utilities      |              |
 | Download Presentation Deck                       |              |
+| 🆕 Custom Resource Definition (CRD) (2025 Updates) | 11:00    |
+| 🆕 Custom Controllers (2025 Updates)              | 03:57    |
+| 🆕 Operator Framework (2025 Updates)              | 03:00    |
 
-#### Total Duration: 3h 25m
+#### Total Duration: 3h 45m

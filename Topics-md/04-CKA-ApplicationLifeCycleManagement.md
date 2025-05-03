@@ -29,4 +29,12 @@
 | Solution - Init Containers (Optional)     | 08:02              |
 | Self Healing Applications                 |                    |
 | Download Presentation Deck                |                    |
-#### Total required time 1h 40m
+| 🆕 Introduction to Autoscaling (2025 Updates)              | 05:21    |
+| 🆕 Horizontal Pod Autoscaler (HPA) (2025 Updates)          | 05:29    |
+| 🆕 Practice Test - Manual Scaling (2025 Updates)           |          |
+| 🆕 Practice Test - HPA (2025 Updates)                      |          |
+| 🆕 In-place Resize of Pods (2025 Updates)                  | 03:30    |
+| 🆕 Vertical Pod Autoscaling (VPA) (2025 Updates)           | 09:22    |
+| 🆕 Practice Test - Install VPA (2025 Updates)              |          |
+| 🆕 Practice Test - Modifying CPU resources in VPA (2025 Updates) |     |
+#### Total required time 2h
