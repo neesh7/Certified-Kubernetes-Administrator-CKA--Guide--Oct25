@@ -31,3 +31,7 @@ Managing Application Logs: https://learn.kodekloud.com/user/courses/cka-certific
 Rolling Updates : https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/83db36b1-b9db-43c4-a217-0b83cfba401c?autoplay=true
 
 Test Commands and Arguments: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/5d42a689-ba40-4aaa-9407-6677a622b2f4?autoplay=true
+
+Test Env Variables: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/10eca8cd-5c55-4dbf-83a5-4a67a46de080
+
+Secrets: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/9b081c0a-d604-427b-b603-a5716262199b
