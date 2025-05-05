@@ -35,3 +35,7 @@
 - Test Env Variables and ConfigMaps: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/10eca8cd-5c55-4dbf-83a5-4a67a46de080
 
 - Secrets: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/9b081c0a-d604-427b-b603-a5716262199b
+
+- Multi Container Pods:  https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/2544dd45-d85b-44c7-9c49-06673ab37b19?autoplay=true
+
+- Init Containers: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/2146f07c-1970-44ed-a30b-a454954ff038?autoplay=true
