@@ -39,3 +39,14 @@
 - Multi Container Pods:  https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/2544dd45-d85b-44c7-9c49-06673ab37b19?autoplay=true
 
 - Init Containers: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/2146f07c-1970-44ed-a30b-a454954ff038?autoplay=true
+
+- Manual Scalling :  https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/a84abc2e-7511-4685-8dcc-73e3f80045bf?autoplay=true
+- HPA : https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/87c707b6-eda8-443a-9cac-03116ee3966f?autoplay=true
+
+- Install VPA: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/b4aa0137-fe1f-4470-9b74-865b45266131
+
+- Modifying CPU resources in VPA: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/2ddcf79b-abb0-4aeb-ad0c-3d54c7b4fc64/lesson/eccfe456-0391-4044-8d63-e3237f8d07bf
+
+## Cluster Maintainance
+
+- OS Upgrades: https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator/module/51676566-4860-4564-ad8e-4723a266211e/lesson/5b430a96-65c1-49b9-9456-54a4a3955050?autoplay=true
